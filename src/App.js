@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
+      <BrowserRouter basename="/E-Commerce-Website-UI-">
         <Routes>
           <Route path="/" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
